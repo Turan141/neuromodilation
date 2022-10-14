@@ -1,0 +1,54 @@
+.root {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  & > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+
+  & > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.section {
+  position: relative;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.wavyLinesBig {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.wavyLinesSmall {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+}

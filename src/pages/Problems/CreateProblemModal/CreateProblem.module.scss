@@ -1,0 +1,66 @@
+.input {
+  width: 50% !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.inputTree {
+  width: 550px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.description {
+  min-height: 80px;
+}
+
+.container {
+  margin-top: 22px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerCreateProblem {
+  margin-top: 22px;
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cancelButton {
+  color: #505d68 !important;
+  margin-bottom: 20px;
+  background: white !important;
+  box-shadow: none !important;
+  color: black;
+}
+
+.structure {
+  left: -158px;
+  bottom: 0;
+  position: absolute;
+  background: #f2f5f7;
+  width: 200px;
+  height: 753px;
+  border-radius: 4px;
+  padding: 30px 0;
+}
+
+.placeholder {
+  top: -7px !important;
+  font-size: 14px !important;
+}
+
+.deleteFile {
+  position: absolute !important;
+  top: -10px !important;
+  right: -10px !important;
+}
+.deleteFileVariant {
+  position: absolute !important;
+  top: -5px !important;
+  right: -5px !important;
+}

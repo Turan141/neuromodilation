@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.drawer {
+  width: 245px;
+  height: 100%;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.main {
+  width: calc(100% - 245px);
+  height: 100%;
+  padding: 24px 40px;
+}
+
+.cancelButton {
+  width: 90% !important;
+  margin-left: 10px !important;
+  background: white !important;
+  box-shadow: none !important;
+  color: black !important;
+}
